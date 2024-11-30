@@ -1,0 +1,272 @@
+@import url("./global.css");
+@import url(./fonts.css);
+
+/* header start */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu-link {
+  color: black;
+  font-size: 15px;
+  line-height: 22.5px;
+  &:hover {
+    opacity: 70%;
+  }
+  &:active {
+    opacity: 35%;
+  }
+}
+
+/* header end */
+
+/* main start */
+
+/* main hero start  */
+.hero-container {
+  margin: 55px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small-subtitle {
+  color: #a6a6a6;
+  line-height: 19.2px;
+  margin-bottom: 5px;
+}
+.hero-title {
+  max-width: 554px;
+  font-size: 64px;
+  color: black;
+  line-height: 76.8px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-bottom: 23px;
+}
+.hero-description {
+  max-width: 717px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #212529;
+  margin-bottom: 36px;
+}
+
+.hero-btn {
+  margin-left: 4px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 24px;
+  padding: 12px 32px;
+  &:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+  }
+  &:active {
+    opacity: 50%;
+  }
+}
+/* main hero end */
+
+/* offer secrtion start */
+.offer-top {
+  display: flex;
+  align-items: center;
+  max-width: 1028px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.offer-items {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.offer-item {
+  color: #a6a6a6;
+}
+/* offer section end  */
+
+/* network start */
+
+.network-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small-subtitle {
+  margin-top: 35px;
+}
+.network-title {
+  max-width: 1012px;
+  text-align: start;
+  font-size: 61px;
+  line-height: 73.2px;
+  margin-bottom: 90.11px;
+}
+.network-image {
+  max-width: 817px;
+  margin-bottom: 100px;
+}
+/* network end */
+
+/* delivery start */
+
+.delivery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafafa;
+  justify-items: center;
+  margin-bottom: 80.16px;
+}
+
+.small-subtitle {
+  margin-bottom: 4px;
+}
+.delivery-title {
+  max-width: 525px;
+  font-size: 61px;
+  line-height: 73.2px;
+  margin-bottom: 95.16px;
+}
+
+.steps-list {
+  display: flex;
+  gap: 30px;
+}
+
+.first-step-title {
+  margin-bottom: 12px;
+}
+.first-step-description {
+  max-width: 339px;
+  height: 72px;
+}
+
+.first-step-image {
+  margin-bottom: 40.16px;
+}
+/* delivery end */
+
+/* tracking start */
+
+.tracking-container {
+  display: flex;
+}
+
+.tracking-title {
+  max-width: 469px;
+  line-height: 73.2px;
+  font-size: 61px;
+  margin-bottom: 23px;
+}
+.tracking-part-one {
+  display: flex;
+  flex-direction: column;
+}
+.tracking-description {
+  max-width: 517px;
+  margin-bottom: 16px;
+}
+
+/* tracking end */
+
+/* localli start */
+
+.localli-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbfbfb;
+  border-radius: 25px;
+  margin-top: 89.11px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 90px;
+  max-width: 1240px;
+  margin-bottom: 90px;
+}
+
+.small-subtitle {
+  margin-bottom: 5px;
+}
+.localli-title {
+  max-width: 447px;
+  font-size: 61px;
+  line-height: 73.2px;
+  margin-bottom: 19px;
+}
+.localii-description {
+  margin-bottom: 16px;
+}
+
+/* localli end */
+
+/* divider */
+.divider {
+  max-width: 1240px;
+
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 50.86px;
+}
+/* divider end */
+
+/* footer start */
+.footer {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-logo {
+  margin-bottom: 11.13px;
+}
+
+.small-subtitle-footer {
+  font-size: 15px;
+  line-height: 22.5px;
+  max-width: 158px;
+  color: #a6a6a6;
+  margin-bottom: 20px;
+}
+.menu {
+  display: flex;
+  gap: 90px;
+}
+.menu1 {
+  display: flex;
+  flex-direction: column;
+}
+.small-subtitle {
+}
+.menu-link {
+  flex-direction: column;
+}
+.menu2 {
+  display: flex;
+  flex-direction: column;
+}
+.menu3 {
+  display: flex;
+  flex-direction: column;
+}
+/* footer end */
